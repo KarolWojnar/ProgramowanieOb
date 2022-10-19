@@ -7,12 +7,12 @@ public class PO_lab2_Swing {
     private JButton startButton;
     private JButton stopButton;
     private JLabel LabA;
-    private JLabel LabB;
     private JTextField textFieldA;
     private JTextField textFieldB;
     private JLabel WynikLab;
     private JLabel DataLabel;
-    double liczbaA, liczbaB, wynik;
+    double stopnie;
+    double wynik;
 
     //    public static void main(String[] args) {
 //        PO_lab2_Swing okienko = new PO_lab2_Swing();
@@ -39,22 +39,12 @@ public class PO_lab2_Swing {
         frame.setSize(500, 500);
 //        frame.pack();
 
-        startButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                liczbaA = Double.parseDouble(textFieldA.getText());
-                liczbaB = Double.parseDouble(textFieldB.getText());
-                wynik = liczbaA+liczbaB;
-                WynikLab.setText("Suma"+String.valueOf(liczbaA)+" "+String.valueOf(liczbaB)+ " = "+String.valueOf(wynik));
-            }
-        });
         stopButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                liczbaA = Double.parseDouble(textFieldA.getText());
-                liczbaB = Double.parseDouble(textFieldB.getText());
-                wynik = liczbaA-liczbaB;
-                WynikLab.setText("Roznica: "+String.valueOf(liczbaA)+" "+String.valueOf(liczbaB)+ " = "+String.valueOf(wynik));
+                stopnie = Double.parseDouble(textFieldA.getText());
+                wynik = stopnie+32;
+                WynikLab.setText(String.valueOf(stopnie)+" na Fahreneity to: "+ String.valueOf(wynik));
             }
         });
     }
