@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Gra">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="1" vgap="1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="676" height="559"/>
+    </constraints>
+    <properties>
+      <background color="-1180161"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a7044" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <horizontalTextPosition value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dfe7" class="javax.swing.JButton" binding="button9" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d64a" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8b290" class="javax.swing.JButton" binding="button5" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6fdda" class="javax.swing.JButton" binding="button4" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="64d10" class="javax.swing.JButton" binding="button8" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f1596" class="javax.swing.JButton" binding="button6" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="acfdd" class="javax.swing.JButton" binding="button7" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="328ae" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="199" height="199"/>
+            <maximum-size width="199" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15658735"/>
+          <foreground color="-1180161"/>
+          <hideActionText value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
