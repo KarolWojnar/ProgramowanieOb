@@ -1,0 +1,102 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+public class Licz{
+    public int liczba = 0;
+    public int dodaj(int x)
+    {
+        liczba += x;
+    }
+        public int odejmij(int x)
+    {
+        liczba -= x;
+    }
+}
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Licz a1 = new Licz();
+        a1.dodaj(5);
+        // Console.Write("Podaj ktore zadanie chcesz uruchomić: ");
+        // int x = 0; 
+        // x = int.Parse(Console.ReadLine());
+        // zad9(x);
+    }
+    static void zad1()
+    {
+        Console.WriteLine("122979\n");
+    }
+    static void zad2()
+    {
+        Console.WriteLine("Podaj liczbe: ");
+        int x;
+        x = int.Parse(Console.ReadLine());
+        if(x % 2 == 0) Console.Write("Liczba: " + x + " jest parzysta");
+        else Console.Write("Liczba: " + x + " nie jest parzysta");
+    }
+    static void zad3(float a, float b)
+    {
+        if(a < b) Console.Write(b);
+        else  Console.Write(a);
+    }
+    static void zad4(float a, float b, float c, float d)
+    {
+        Console.Write((a + b + c + d) / 4.0);
+    }
+    static void zad5(float a, String x, float b)
+    {
+        switch(x){
+        case"+": Console.Write(a+b);break;
+        case"-": Console.Write(a-b);break;
+        case"*": Console.Write(a*b);break;
+        case"/": Console.Write(a/b);break;}
+    }
+    static void zad6(int x)
+    {
+        for(int i = 0; i < x; i++)
+        {
+            Console.Write(i + ", ");
+        }
+        Console.Write(x);
+    }
+    static void zad7(int x)
+    {
+        int suma = 0;
+        for(int i = 1; i <= x; i++)
+        {
+            if(x % i == 0) suma++;
+        }
+        if(suma == 2) Console.Write(" Liczba jest pierwsza");
+        else if(suma > 2) Console.Write(" Liczba nie jest pierwsza");
+    }
+    static void zad8()
+    {
+        Console.Write("Liczby pierwsze do 1000: ");
+        for(int i = 2; i <= 1000; i++)
+        {
+            int suma = 0;
+            for(int x = 1; x <= i; x++)
+            {
+                if(i % x == 0) suma++;
+            }
+            if(suma == 2) Console.Write(i + " ");
+        }
+    }
+    static void zad9(int x)
+    {
+        switch(x){
+            case 1: zad1();break;
+            case 2: zad2();break;
+            case 3: zad3(5,8);break;
+            case 4: zad4(4,5,6,7);break;
+            case 5: zad5(9, "*", 4);break;
+            case 6: zad6(10);break;
+            case 7: zad7(53);break;
+            case 8: zad8();break;
+            case 0: break;
+            default: Console.Write("blad");break;
+        }
+    }
+}
